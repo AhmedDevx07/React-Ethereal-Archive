@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-glass-active);
+  border-radius: 3px;
+  transition: var(--transition-smooth);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-cyan);
+}
