@@ -127,7 +127,7 @@ function App() {
     setShowSettings(false);
 
     triggerToast(
-      formattedKey ? "✓ Unsplash Access Key saved" : "✓ Unsplash Key reset",
+      formattedKey ? "Unsplash Access Key saved" : "Unsplash Key reset",
     );
   };
 

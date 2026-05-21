@@ -42,7 +42,7 @@ const SearchBar = ({ onSearch, currentSearchQuery }) => {
         )}
       </div>
       <button type="submit" className="search-button">
-        <span>FETCH</span>
+        <span>Search</span>
       </button>
     </form>
   );

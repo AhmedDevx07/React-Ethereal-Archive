@@ -112,7 +112,7 @@ const ExhibitionModal = ({
   const handleCopyLink = (e) => {
     e.stopPropagation();
     navigator.clipboard.writeText(downloadUrl);
-    triggerToast("✓ Negative source link copied");
+    triggerToast("Negative source link copied");
   };
 
   const handleDownloadClick = async (e) => {
@@ -120,7 +120,7 @@ const ExhibitionModal = ({
     if (isDownloading) return;
 
     setIsDownloading(true);
-    triggerToast(`✓ Downloading work by ${user?.first_name || "photographer"}`);
+    triggerToast(`Downloading work by ${user?.first_name || "photographer"}`);
 
     try {
       const response = await fetch(downloadUrl, { mode: "cors" });
@@ -300,7 +300,7 @@ const ExhibitionModal = ({
             >
               <Download size={14} />
               <span>
-                {isDownloading ? "ACQUIRING..." : "DOWNLOAD NEGATIVE"}
+                {isDownloading ? "ACQUIRING..." : "DOWNLOAD IMAGE"}
               </span>
             </button>
             <button className="sidebar-action-btn" onClick={handleCopyLink}>
