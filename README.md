@@ -133,6 +133,19 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
+ ## 👨‍💻 Author
+
+**Muhammad Ahmed (AhmedDevx07)**  
+Frontend Developer | MERN Stack Learner
+
+### 🌐 Connect With Me
+
+* 🐙 GitHub: https://github.com/AhmedDevx07  
+* 💼 LinkedIn: https://linkedin.com/in/ahmeddevx07  
+* 🌐 Portfolio: https://ahmeddevx07.vercel.app/
+
+---
+
 <div align="center">
   <p>Made with ❤️ as part of the <strong>internee.pk React Internship</strong></p>
 </div>
